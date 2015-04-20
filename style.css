@@ -19,8 +19,7 @@ h3{
 }
 table{
 	font-family: arial;
-	width: 100px bold;
-	height: 40px;
+	width: 100px;
 	font-size: 14px;
 	color: #555555;
 	
@@ -31,11 +30,13 @@ tr{
 }
 tr:hover{
 	color: #FEFFDB;
+	cursor: pointer;
 
 }
 th{
 	font-family: arial;
 	width: 100px;
+	height: 40px;
 	font-weight: bold;
 }
 .main-footer{
@@ -46,9 +47,12 @@ li{
 
 	color: #555555;
 }
-#li{
-	margin-top: 40px;
+
+div{
+margin-top:40px;
+
 }
+
 
 
 
