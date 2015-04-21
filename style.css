@@ -48,11 +48,19 @@ li{
 	color: #555555;
 }
 
-div{
+#id{
 margin-top:40px;
 
 }
-
+.nav {
+	display: -webkit-flex;
+	display: flex;
+	webkit-flex-direction:row;
+	webkit-justify-content:flex-end;
+	background-color: lightgrey;
+	height: 80px;
+}
+.clear {clear: both;}
 
 
 
