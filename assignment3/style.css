@@ -12,7 +12,6 @@ h2 {
     font-size: 24px;
 }
 
-
 table {
     font-family: Arial;
     width: 100px;
@@ -50,9 +49,6 @@ li {
     background-color: grey;
     color: purple;
     text-decoration: underline;
-
-
-
 }
 
 .rectangle-box {
@@ -62,7 +58,6 @@ li {
     width: 200px;
     border-color: #444444
 }
-
 
 hr {
     color: #dddddd;

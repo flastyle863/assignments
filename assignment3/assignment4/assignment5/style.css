@@ -6,17 +6,17 @@ body {
 nav ul li {
     list-style-type: none;
     align-self: center;
-    
-    
+    margin-right: 25px;
 }
-nav ul{
-        list-style: none;
-        margin: 0 auto;
-        padding: left 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: left 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 h1 {
     font-size: 18px;
@@ -62,7 +62,8 @@ nav ul li img {
     margin-bottom: 40px;
 }
 
-input, label {
+input,
+label {
     display: block;
     width: 100px;
     margin-top: 10px;
@@ -92,6 +93,7 @@ li {
     color: purple;
     text-decoration: underline;
 }
+
 .rectangle-box {
     background-color: #feffdb;
     border-style: solid;
@@ -115,11 +117,6 @@ li {
     display: flex;
     align-self: center;
     margin-right: auto;
-
-    
-    
-    
-
 }
 
 .form {
@@ -130,26 +127,26 @@ li {
     float: left;
 }
 
-.topbar{
+.topbar {
     background-color: lightgray;
-    text-align: left;
-    padding: 1px;
-    height: 100%;
     font-size: 18px;
-    color: blue;
-    display: flex;
-    margin-top: 0.2em;
 }
 
 .submit {
     background: lightgray;
-    width: 200px
+    width: 200px;
 }
+
 .clear {
     clear: both;
 }
-    
-@media screen and (max-width: 480px)
-nav ul{
-    flex-direction: column;
+
+@media screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li img {
+        margin: 0;
+        padding: 0;
+    }
 }
