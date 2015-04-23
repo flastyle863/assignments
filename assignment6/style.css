@@ -1,1 +1,8 @@
-style.css
+.circle {
+  display: block;
+  margin: 0 15px;
+  width: 250px;
+  height: 250px;
+  background-color: grey;
+  border-radius: 50%;
+}
